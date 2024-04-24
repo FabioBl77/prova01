@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griglia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        #title {
+            color: yellow;
+        }
+        #id1 {
+            background-color: darkblue;
+            grid-area: area1;
+            text-align: center;
+        }
+        #id2 {
+
+            background-color: whitesmoke;
+            grid-area: area2;
+            text-align: center;
+            
+        }
+        #id3 { 
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+     
+            grid-template-areas: "A1 B1"
+                                 "A2 B2"
+                                 "A3 B3";
+        
+            background-color: whitesmoke;
+            grid-area: area3;
+            text-align: center;
+        }
+        #id4 {
+            background-color: brown;
+            grid-area: area4;
+            text-align: center;
+        }
+        #id5 {
+            background-color: rgb(43, 226, 58);
+            grid-area: area5;
+            text-align: center;
+        }
+        #id5 img {
+            width: 100%;
+        }
+        #container {
+            display: grid;
+            grid-template-rows: 1fr 4fr 10fr 3fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+     
+            grid-template-areas: "area1 area1 area1 area1"
+                                 "area2 area2 area2 area5"
+                                 "area3 area3 area3 area5"
+                                 "area4 area4 area4 area4";
+        }
+        
+        #img01 {
+            display: flex;
+            flex-direction: row;
+        }
+        @media screen and (max-width: 1000px) {
+            #img01 {
+            display: flex;
+            flex-direction: column;
+            }
+        
+        }
+        #im01 {
+            width: 100%;
+        }
+        #im02 {
+            width: 100%;
+        }
+        #im03 {
+            width: 100%;
+        }
+        #ct01 {
+            grid-area: A1;
+        }
+        #ct02 {
+            grid-area: B1;
+        }
+        #ct03 {
+            grid-area: B2;
+        }
+        #ct04 {
+            grid-area: A2;
+        }
+        #ct05 {
+            grid-area: A3;
+        }
+        #ct06 {
+            grid-area: B3;
+        }
+        .container-fluid {
+            background-color: yellow;
+            
+        }
+        </style>
+</head>
+<body>
+    <div id ="container">
+        <div id = "id1">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Torino.it</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Storia</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Informazioni
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hotel</a></li>
+                  <li><a class="dropdown-item" href="#">Ristoranti</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Attrazioni</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Monumenti</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Cerca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h1 id="title">CITTA' DI TORINO</h1>
+        </div>
+        <div id = "id2">
+            <h1>
+                Storia della città
+            </h1>
+            <p>
+                Torino sorge nella pianura delimitata dai fiumi Stura di Lanzo, Sangone e Po (quest'ultimo attraversa la città da sud verso nord), di fronte allo sbocco di alcune vallate alpine: Val di Susa, che collega la città con la vicina Francia attraverso i trafori del Frejus (ferroviario e stradale) , Valli di Lanzo, Val Sangone. Torino è detta "la città dei quattro fiumi"[11]: oltre ai tre corsi d'acqua prima citati che ne incorniciano il territorio, abbiamo la Dora Riparia che taglia la città da ovest a est, scorrendo prossima al centro storico.[12]
+
+                Il fiume Po accentua la divisione tra la parte collinare e quella, quasi pianeggiante, della città, collocata tra i 220 e i 280 metri sul livello del mare; il punto più elevato del territorio comunale è il Colle della Maddalena, a 715 metri sul livello del mare, nei pressi del Faro della Vittoria.
+
+                La città è al centro di un anfiteatro montuoso che ingloba alcune delle più belle vette alpine: il Monviso, monte dal quale nasce il Po, il Rocciamelone, e i massicci del Gran Paradiso e del Monte Rosa, mentre il Cervino diventa visibile dalla zona sud-est dell'area urbana.
+
+                Torino dista 57 km da Asti, 79 km da Vercelli, 84 km da Biella, 93 km da Alessandria, 96 km da Novara, 98 km da Cuneo, 100 km da Pavia, 155 km da Verbania. Il confine francese dista circa 70 km nei pressi del Colle del Moncenisio, mentre sono 206 i chilometri che separano Piazza Castello da Chambery, 222 da Nizza, 250 da Ginevra e 314 da Lione.
+
+                Il 19 marzo 2016 l'UNESCO ha riconosciuto il parco del Po e la collina torinese come riserva della biosfera[13][14], mentre nel 2020 la FAO e l'Arbor Day Foundation hanno conferito alla città di Torino il riconoscimento di Tree City of the World 2019.[15]
+                <hr>
+            </p>
+        </div>
+        <div id = "id3">
+            
+            <div id="ct01">
+                <img id=im01 src="TorinoAlto.jpg">
+            </div>
+            <div id="ct02">
+                <h3>Torino dall'alto</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nihil et a odio placeat alias? Harum distinctio vitae temporibus optio inventore qui voluptate laborum sunt. Non et veniam expedita voluptate.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit rem expedita pariatur dolorum saepe ut similique? Accusantium eos repellat, quos esse deleniti repudiandae sapiente quas magni minus sit est.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate saepe ea atque nulla porro est dolorum, doloribus facilis magnam assumenda esse iusto maxime minus, minima quibusdam eligendi. Deserunt, sint impedit.
+
+            </div>
+            <div id="ct03">
+                <img id=im02 src="Pazza Castello.jpg">
+            </div>
+            <div id="ct04">
+                <h3>Pazza Castello</h3>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel accusamus, distinctio dolorem earum cupiditate atque accusantium provident iste soluta eum dolores assumenda nulla quos natus quas commodi. Dolor, quas ratione.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium perspiciatis cupiditate officia expedita totam consequuntur voluptate odit nostrum quidem, corporis maiores distinctio quae sit porro vel quibusdam deserunt architecto magni?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sed deleniti optio sequi minima ipsam nemo ipsa enim ad temporibus est perferendis eius inventore, voluptates voluptatem fugiat perspiciatis tempore corrupti.
+
+            </div>
+            <div id="ct05"> 
+                <img id=im03 src="Gran Madre.jpg">
+            </div>
+            <div id="ct06">
+                <h3>Gran Madre</h3>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae est iste tempore ipsa numquam optio iure inventore distinctio porro! Id dicta, deleniti earum quam vitae minus amet molestias quidem rem.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id harum sequi at modi enim, sint facere est voluptatum, nobis eum magni dolore in, quibusdam consequuntur magnam sunt nostrum. Quas, sit?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi ipsam repellat similique? Voluptatibus hic, rem veniam ea exercitationem odit nisi nemo ullam aspernatur recusandae ducimus! Eum magni veniam quas eaque.
+
+            </div>
+        </div>
+        <div id = "id4">
+            <h1>
+                FOOTER
+            </h1>
+            <div id="fot01">
+                <img src="Logo torino.png">
+            </div>
+            <div id="fot02">
+                
+            </div>
+            <div id="fot03">
+
+            </div>
+        </div>
+        <div id = "id5">
+             
+            <img src="Logo torino e Sritta.png"><br>
+            <img src="Calendario.jpg"><br>
+            <img src="client-details.png"><br>
+        </div>
+    </div> 
+</body>
+</html>
